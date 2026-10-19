@@ -1,0 +1,50 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="{% static 'css/index.css' %}">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css">
+</head>
+<body>
+    <nav class="d-flex">
+        <p>My Shop</p>
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item d-flex">
+              <a class="nav-link active" href="{% url "shop1"%}">Home  <span class="ms-3"><a class="nav-link" href="{% url "shop2"%}">About</a></span></a>
+            </li>
+ 
+          </ul>
+    </nav>
+
+
+
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+
+
+        <footer style="background-color: black; color: white;">
+    <div class="container text-center">
+      <p class="mb-1">© 2026 MyShop. All rights reserved.</p>
+      <a href="{% url "shop1"%}" style="color: white;">Home</a> | <a href="{% url "shop2"%}" style="color: white;">About</a>
+    </div>
+  </footer>
+
+  <div class="d-flex justify-content-center"><i class="fa-brands fa-square-instagram mt-1" style="color: rgb(196, 38, 108);"></i>
+
+  <a href="https://instagram.com" target="_blank" class="text-primary d-inline-flex align-items-center text-decoration-none">
+    <i class="bi bi-instagram fs-4 me-2"></i> 
+    <span>Follow us on Instagram</span>
+</a>
+</div>
+  
+</body>
+</html>

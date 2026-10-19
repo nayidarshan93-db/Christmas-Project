@@ -1,0 +1,300 @@
+header{
+    height: 60px;
+    border: 2px solid red;
+    padding-top: 10px;
+
+}
+
+.logo p{
+    color: goldenrod;
+    font-style: oblique;
+    font-size: 22px;
+     font-weight: 400;
+     margin-left: 40px;
+}
+
+.logo span{
+    color: goldenrod;
+    font-style: unset;
+    font-size: 25px;
+    margin-left: 2px;
+    font-weight: 700;
+}
+
+.tittles{
+    font-size: 18px;
+    gap: 28px;  
+    font-weight: 600;
+    margin-left: 330px;
+    
+}
+
+.hedicon{
+    margin-left: 490px;
+    font-size: 20px;
+}
+
+
+
+.tittless {
+    font-size: 16px;
+    gap: 15px;  
+    font-weight: 600;
+    margin-left: 360px;
+}
+.hedicons{
+    font-size: 18px;
+    margin-left: 450px;
+}
+
+.footer {
+    height: 60px;
+    border: 2px solid rgb(17, 183, 69);
+    padding-top: 10px;
+}
+.footline {
+    margin-top: 20px;
+    padding-top: 30px;
+    text-align: center;
+    border-top: 1px solid gray;
+}
+
+.main{
+   background-image: url(../img/mainimg1.jpeg); 
+   height: 700px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center  ;
+   display: flex;
+   justify-content: center;
+   text-align: center   ;
+   align-items: center;
+   color: white;
+}
+
+.contant p{
+    font-size: 35px;
+    margin-top: -33px;
+}
+
+.contant h1{
+    font-size: 90px;
+}
+
+.contant h5{
+    font-size: 24px;
+}
+
+.kaushan-script-regular {
+  font-family: "Kaushan Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.luckiest-guy-regular {
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 1000;
+  font-style: normal;
+}
+
+.shopnow{
+    height: 40px;
+    width: 150px;
+    color: black;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.one-container {
+  display: flex;
+  align-items: center; 
+  width: 100%;
+  margin: 20px 0;
+}
+
+.line {
+  flex-grow: 0.4; 
+  height: 1px; 
+  background-color: #333333; 
+  margin-right: 15px; 
+  margin-left: 30px;
+}
+
+.one-text{
+    font-size: 35px;
+    color: #C60F0F;
+}
+.darshan{
+    width: 100%;
+
+}
+
+.lefts{
+    width: 25.5%;
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 30px;
+  
+}
+.rights{
+    width: 74%;
+    
+}
+.isometra-regular {
+  font-family: "Isometra", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+.more{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: serif;
+    padding-left: 340px;
+    padding-right: 20px;
+}
+
+.giftimg{
+    background-image: url(../img/giftimg.jpg);
+    height: 450px;
+    margin-left: 26.5%;
+    width: 970px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center  ;
+}
+
+.one-texts{
+    font-size: 35px;
+    color: #C60F0F;
+}
+
+.linee {
+  flex-grow: 0.27; 
+  height: 1px; 
+  background-color: #333333; 
+  margin-right: 15px; 
+  margin-left: 30px;
+}
+
+.darsh{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center  ;    
+}
+
+.cardtext{
+    font-size: 18px;
+    font-family: serif;
+    font-weight: 600;
+    margin-top: 4px;
+}
+
+.cardprice{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: serif;
+    border: 1px dotted grey;
+    display: inline;
+    padding: 4px;
+}
+
+.today{
+    background-image: url(../img/mainimg1.jpeg);
+    background-size: cover; 
+    background-position: center;
+    height: 680px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;     
+    text-align: center;
+}
+
+.todaytitle{
+    font-size: 35px;
+    color: antiquewhite;
+
+}
+.todaysubtitle{
+    color: antiquewhite;
+    font-size: 90px;
+}
+
+.dm-serif-display-regular {
+  font-family: "DM Serif Display", serif;
+  font-weight: 1000;
+  font-style: normal;
+}
+
+.sdb {
+  font-family: "Edu QLD Hand", cursive;
+
+
+}
+.sd{
+    height: 650px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.sd1{
+
+    width: 30%;
+    height: 100%;
+}
+.txtsd{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.sd2{
+    width: 30%;
+
+}
+
+.sd2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    display: block;    
+}
+
+.sd3{
+    width: 30%;
+    height: 100%;
+
+}
+
+.sd3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    display: block;    
+}
+
+.sharma{
+    height: 900px;
+    width: 100%;
+}
+
+.sharma1{
+    height: 50%;
+    width: 100%;
+    
+}
+.sharma2{
+    height: 50%;
+    width: 100%;
+}
+
+.sharma11{
+    height: 100%;
+    width: 33.33%;
+    border: 1px solid rgb(249, 20, 203);
+}
+
+.sharma22{
+    height: 100%;
+    width: 33.33%;
+    border: 1px solid rgb(1, 1, 3);
+}
